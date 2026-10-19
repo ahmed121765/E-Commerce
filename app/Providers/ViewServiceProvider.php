@@ -16,9 +16,6 @@ class ViewServiceProvider extends ServiceProvider
         //
     }
 
-    /**
-     * Bootstrap services.
-     */
     public function boot(): void
     {
         View::composer('frontend.layouts.master', function ($view) {
